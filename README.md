@@ -51,14 +51,15 @@ To run the services using Docker Compose, follow these steps:
 2. **Clone the Repository**:
 
    ```bash
-   git clone <repository_url>
-   cd <repository_directory>
+   git clone https://github.com/Justin-Fernbaugh/teldrive-infrastructure.git
+   cd teldrive-infrastructure
    ```
 3. **Create Required Files**:
   ```bash
   touch session.db
   touch config.toml
   ```
+- An example config.toml can be found at https://github.com/divyam234/teldrive
 
 4. **Build the Docker Images**:
   ```bash
